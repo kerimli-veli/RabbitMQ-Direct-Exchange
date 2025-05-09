@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DirectExthange", "DirectExthange", "{E074B8F0-D644-40CE-84FE-4804CCF805A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectExthange.Publiser", "DirectExthange.Publiser\DirectExthange.Publiser.csproj", "{CDF8C278-91CE-4A2B-A2AF-43ED11DA44F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectExthange.Consumer", "DirectExthange.Consumer\DirectExthange.Consumer.csproj", "{36983C11-7FB6-4990-A6A2-6A339F0B8CE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDF8C278-91CE-4A2B-A2AF-43ED11DA44F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF8C278-91CE-4A2B-A2AF-43ED11DA44F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF8C278-91CE-4A2B-A2AF-43ED11DA44F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF8C278-91CE-4A2B-A2AF-43ED11DA44F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36983C11-7FB6-4990-A6A2-6A339F0B8CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36983C11-7FB6-4990-A6A2-6A339F0B8CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36983C11-7FB6-4990-A6A2-6A339F0B8CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36983C11-7FB6-4990-A6A2-6A339F0B8CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDF8C278-91CE-4A2B-A2AF-43ED11DA44F1} = {E074B8F0-D644-40CE-84FE-4804CCF805A6}
+		{36983C11-7FB6-4990-A6A2-6A339F0B8CE9} = {E074B8F0-D644-40CE-84FE-4804CCF805A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57B46296-7D84-4E45-999F-7DCA143FECAD}
+	EndGlobalSection
+EndGlobal
